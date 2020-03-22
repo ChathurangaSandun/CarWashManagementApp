@@ -45,7 +45,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.huynh.listar_flutter"
+        applicationId "com.clivekumara.srilankacarwashfinder"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
