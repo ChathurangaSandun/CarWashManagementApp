@@ -127,8 +127,10 @@
   "release_to_refresh": "Release to refresh",
   "release_to_load_more": "Release to load more",
   "pull_to_load_more": "Pull up to load more",
-
-  "popular_service_centers": "Popular Service Centers",
-  "let_find_popular_service_center_desc": "Let find out what most popular service centers"
+  
+  "homepage.popular_wash_centers": "Popular Wash Centers",
+  "homepage.let_find_popular_wash_center_desc": "Let find out what most popular wash centers",
+  "homepage.popular_service_centers": "Popular Service Centers",
+  "homepage.let_find_popular_service_center_desc": "Let find out what most popular service centers"
 
 }

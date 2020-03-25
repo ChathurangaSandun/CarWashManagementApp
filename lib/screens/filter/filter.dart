@@ -31,10 +31,10 @@ class _FilterState extends State<Filter> {
       "Medical"
     ],
     "service": [
-      "Free Wifi",
-      "Shower",
-      "Pet Allowed",
-      "Shuttle Bus",
+      "Wax",
+      "Body Wash",
+      "Vaccum",
+      "Wheel alignments",
       "Supper Market",
       "Open 24/7",
     ]
@@ -53,12 +53,12 @@ class _FilterState extends State<Filter> {
   List<LocationModel> _areaSelected = [];
   TimeOfDay _startHour = TimeOfDay(hour: 12, minute: 15);
   TimeOfDay _endHour = TimeOfDay(hour: 18, minute: 10);
-  RangeValues _rangeValues = RangeValues(20, 80);
+  RangeValues _rangeValues = RangeValues(0, 50);
   List _category = [];
   List _service = [];
   List<Color> _colorSelected = [];
   double _rate = 4;
-  String _currency = String.fromCharCode(0x24);
+  String _currency = "Rs"; // String.fromCharCode(0x24);
 
   @override
   void initState() {
@@ -178,43 +178,6 @@ class _FilterState extends State<Filter> {
                         onTapIcon: _onClearTapped,
                         icon: Icon(Icons.clear),
                         controller: _textController,
-                      ),
-                      Padding(
-                        padding: EdgeInsets.only(
-                          bottom: 10,
-                          top: 15,
-                        ),
-                        child: Text(
-                          Translate.of(context)
-                              .translate('category')
-                              .toUpperCase(),
-                          style: Theme.of(context)
-                              .textTheme
-                              .title
-                              .copyWith(fontWeight: FontWeight.w600),
-                        ),
-                      ),
-                      Wrap(
-                        spacing: 10,
-                        runSpacing: 10,
-                        children: _filterPage.category.map((item) {
-                          final bool selected = _category.contains(item);
-                          return SizedBox(
-                            height: 32,
-                            child: FilterChip(
-                              selected: selected,
-                              label: Text(item),
-                              onSelected: (value) {
-                                selected
-                                    ? _category.remove(item)
-                                    : _category.add(item);
-                                setState(() {
-                                  _category = _category;
-                                });
-                              },
-                            ),
-                          );
-                        }).toList(),
                       ),
                       Padding(
                         padding: EdgeInsets.only(
@@ -422,7 +385,7 @@ class _FilterState extends State<Filter> {
                                     style: Theme.of(context).textTheme.caption,
                                   ),
                                   Text(
-                                    '$_currency 100',
+                                    '$_currency 10000',
                                     style: Theme.of(context).textTheme.caption,
                                   )
                                 ],
@@ -461,7 +424,7 @@ class _FilterState extends State<Filter> {
                         style: Theme.of(context).textTheme.subtitle,
                       ),
                       Text(
-                        '${_rangeValues.start.round()}$_currency- ${_rangeValues.end.round()}$_currency',
+                        '$_currency ${_rangeValues.start.round()} - $_currency${_rangeValues.end.round()}',
                         style: Theme.of(context).textTheme.subtitle,
                       )
                     ],
@@ -472,52 +435,6 @@ class _FilterState extends State<Filter> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.only(
-                          bottom: 10,
-                          top: 15,
-                        ),
-                        child: Text(
-                          Translate.of(context)
-                              .translate('business_color')
-                              .toUpperCase(),
-                          style: Theme.of(context)
-                              .textTheme
-                              .title
-                              .copyWith(fontWeight: FontWeight.w600),
-                        ),
-                      ),
-                      Wrap(
-                        spacing: 15,
-                        runSpacing: 10,
-                        children: _color.map((item) {
-                          final bool selected = _colorSelected.contains(item);
-                          return InkWell(
-                            onTap: () {
-                              selected
-                                  ? _colorSelected.remove(item)
-                                  : _colorSelected.add(item);
-                              setState(() {
-                                _colorSelected = _colorSelected;
-                              });
-                            },
-                            child: Container(
-                              width: 32,
-                              height: 32,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                color: item,
-                              ),
-                              child: selected
-                                  ? Icon(
-                                      Icons.check,
-                                      color: Colors.white,
-                                    )
-                                  : Container(),
-                            ),
-                          );
-                        }).toList(),
-                      ),
                       Padding(
                         padding: EdgeInsets.only(
                           bottom: 10,

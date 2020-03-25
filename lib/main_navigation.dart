@@ -94,20 +94,20 @@ class _MainNavigationState extends State<MainNavigation> {
           child: Text(Translate.of(context).translate('home')),
         ),
       ),
-      // BottomNavigationBarItem(
-      //   icon: Icon(Icons.bookmark),
-      //   title: Padding(
-      //     padding: EdgeInsets.only(top: 3),
-      //     child: Text(Translate.of(context).translate('wish_list')),
-      //   ),
-      // ),
       BottomNavigationBarItem(
-        icon: Icon(Icons.message),
+        icon: Icon(Icons.bookmark),
         title: Padding(
           padding: EdgeInsets.only(top: 3),
-          child: Text(Translate.of(context).translate('message')),
+          child: Text(Translate.of(context).translate('wish_list')),
         ),
       ),
+      // BottomNavigationBarItem(
+      //   icon: Icon(Icons.message),
+      //   title: Padding(
+      //     padding: EdgeInsets.only(top: 3),
+      //     child: Text(Translate.of(context).translate('message')),
+      //   ),
+      // ),
       BottomNavigationBarItem(
         icon: Icon(Icons.notifications),
         title: Padding(
@@ -135,7 +135,7 @@ class _MainNavigationState extends State<MainNavigation> {
             children: <Widget>[
               Home(),
               WishList(),
-              MessageList(),
+              // MessageList(),
               NotificationList(),
               auth is AuthenticationSuccess ? Profile() : SignIn()
             ],

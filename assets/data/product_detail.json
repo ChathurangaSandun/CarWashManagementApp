@@ -1,34 +1,41 @@
 {
   "data": {
     "id": 1,
-    "type": "place",
-    "title": "Lounge Coffee Bar",
-    "subtitle": "Arts & Humanities",
-    "image": "assets/images/location-7.jpg",
+    "type": "carwash",
+    "title": "LAUGFS Car Care",
+    "subtitle": "Car wash",
+    "image": "assets/images/banner4.jpg",
     "created_date": "Sep 15, 2019",
     "rate": 4.5,
     "num_rate": 676,
     "rate_text": "Good",
     "status": "Featured",
-    "address": "667 Wiegand Gardens Suite, United States",
-    "phone": "+903 9802-7892",
-    "email": "liststar@passionui.com",
-    "website": "www.passionui.com",
+    "address": "Baseline Rd, Colombo",
+    "phone": "0718256773",
+    "email": "wacsk@gmail.com",
+    "website": "www.clivekumara.com",
     "hour": "09:00 AM - 18:00 PM",
     "description": "Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. ",
     "date": "Sep 26, 2009",
-    "price_range": "$46.00 to $93.00",
+    "price_range": "Rs 400.00 to Rs 1500.00",
     "author": {
       "id": 1,
-      "full_name": "Steve Garrett",
-      "nickname": "Steve",
+      "full_name": "Chathuranga sandun",
+      "nickname": "pata",
       "photo": "assets/images/profile-2.jpg",
       "url": "http://passionui.com",
       "level": "Developer",
-      "description": "from Singapore, Golden Mile",
+      "description": " Baseline Rd, Colombo",
       "rate": 4.5,
-      "tag": "@steve.garrett"
+      "tag": "@Sandun"
     },
+    "tab": [
+      {"id": 1, "title": "information","key": "information"},
+      {"id": 2, "title": "facilities","key": "facilities"},
+      {"id": 3, "title": "featured","key": "featured"},
+      {"id": 4, "title": "nearly","key": "nearly"},
+      {"id": 5, "title": "related","key":"related"}
+    ],
     "hour_detail": [
       {"title": "monday","time": "09:00 - 18:00"},
       {"title": "tuesday", "time": "09:00 - 18:00"},
@@ -39,306 +46,216 @@
       {"title": "sunday","time": "day_off"}
     ],
     "photo": [
-      {"id": 1, "image": "assets/images/gallery-2.jpg"},
-      {"id": 2, "image": "assets/images/gallery-1.jpg"},
-      {"id": 3, "image": "assets/images/trip-3.jpg"},
-      {"id": 4, "image": "assets/images/trip-4.jpg"},
-      {"id": 5, "image": "assets/images/trip-5.jpg"},
-      {"id": 6, "image": "assets/images/location-1.jpg"},
-      {"id": 7, "image": "assets/images/location-2.jpg"},
-      {"id": 8, "image": "assets/images/location-3.jpg"},
-      {"id": 9, "image": "assets/images/location-4.jpg"},
-      {"id": 10, "image": "assets/images/location-5.jpg"}
+      {"id": 1, "image": "assets/images/banner1.jpg"},
+      {"id": 2, "image": "assets/images/banner2.jpg"},
+      {"id": 3, "image": "assets/images/banner3.jpg"},
+      {"id": 4, "image": "assets/images/banner5.jpg"},
+      {"id": 5, "image": "assets/images/banner1.jpg"},
+      {"id": 6, "image": "assets/images/banner2.jpg"},
+      {"id": 7, "image": "assets/images/banner3.jpg"}      
     ],
     "service": [
-      {"icon": "wifi", "title": "Free Wifi"},
-      {"icon": "whatshot", "title": "Shower"},
-      {"icon": "pets", "title": "Pet Allowed"},
-      {"icon": "directions_bus", "title": "Shuttle Bus"},
+      {"icon": "wifi", "title": "Body Wash"},
+      {"icon": "whatshot", "title": "Body Wash"},
+      {"icon": "pets", "title": "Vaccum"},
+      {"icon": "directions_bus", "title": "Wheel Alignments"},
       {"icon": "shopping_cart", "title": "Supper Market"},
       {"icon": "access_time", "title": "Open 24/7"}
     ],
     "feature": [
       {
         "id": 1,
-        "title": "Lounge Coffee Bar",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-1.jpg",
+        "type": "carwash",
+        "title": "B.M.S. Service Center",
+        "subtitle": "wash center",
+        "image": "assets/images/banner3.jpg",
         "created_date": "Sep 15, 2019",
         "rate": 4.5,
         "num_rate": 676,
         "rate_text": "Good",
         "status": "Open Now",
         "favorite": false,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
+        "address": "400 New Kandy Rd, Malabe",
+        "phone": "0718256773",
         "location": {
           "id": 1,
           "name": "Lounge Coffee Bar",
-          "lat": 37.774929,
-          "long": -122.419418
+          "lat": 6.9359739,
+          "long": 79.8322557
         }
       },
       {
         "id": 2,
-        "title": "Cozy Royal Room",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-2.jpg",
+        "type": "carwash",
+        "title": "Pro Auto Detailers",
+        "subtitle": "wash center",
+        "image": "assets/images/banner3.jpg",
         "created_date": "Sep 15, 2019",
         "rate": 4.0,
         "num_rate": 676,
         "rate_text": "Good",
         "status": "Open Now",
         "favorite": true,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
+        "address": "104 A2, Dehiwala-Mount Lavinia",
+        "phone": "0718256773",
         "location": {
           "id": 2,
           "name": "Lounge Coffee Bar",
-          "lat": 37.775434,
-          "long": -122.426516
+          "lat": 6.948255, 
+          "long": 79.877978
         }
       },
       {
         "id": 3,
-        "title": "Adorable Room",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-3.jpg",
+        "type": "carwash",
+        "title": "Hendala Service Center",
+        "subtitle": "wash center",
+        "image": "assets/images/banner3.jpg",
         "created_date": "Sep 15, 2019",
         "rate": 4.5,
         "num_rate": 676,
         "rate_text": "Good",
         "favorite": false,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
+        "address": "104 A2, Dehiwala-Mount Lavinia",
+        "phone": "0718256773",
         "location": {
           "id": 3,
           "name": "Lounge Coffee Bar",
-          "lat": 37.774228,
-          "long": -122.433966
-        }
-      },
-      {
-        "id": 4,
-        "title": "Vallejo Guest Room",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-4.jpg",
-        "created_date": "Sep 15, 2019",
-        "rate": 4.5,
-        "num_rate": 676,
-        "rate_text": "Good",
-        "status": "Close",
-        "favorite": true,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
-        "location": {
-          "id": 4,
-          "name": "Lounge Coffee Bar",
-          "lat": 37.772057,
-          "long": -122.429248
-        }
-      },
-      {
-        "id": 5,
-        "title": "Lounge Coffee Bar",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-5.jpg",
-        "created_date": "Sep 15, 2019",
-        "rate": 4.5,
-        "num_rate": 676,
-        "rate_text": "Good",
-        "favorite": false,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
-        "location": {
-          "id": 5,
-          "name": "Lounge Coffee Bar",
-          "lat": 37.768664,
-          "long": -122.407027
-        }
-      },
-      {
-        "id": 6,
-        "title": "Lounge Coffee Bar",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-6.jpg",
-        "created_date": "Sep 15, 2019",
-        "rate": 4.0,
-        "num_rate": 676,
-        "rate_text": "Good",
-        "favorite": false,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
-        "location": {
-          "id": 6,
-          "name": "Lounge Coffee Bar",
-          "lat": 37.756722,
-          "long": -122.430621
-        }
-      },
-      {
-        "id": 7,
-        "title": "Lounge Coffee Bar",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-7.jpg",
-        "created_date": "Sep 15, 2019",
-        "rate": 4.5,
-        "num_rate": 676,
-        "rate_text": "Good",
-        "favorite": true,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
-        "location": {
-          "id": 7,
-          "name": "Lounge Coffee Bar",
-          "lat": 37.753857,
-          "long": -122.455688
+          "lat": 6.950534, 
+          "long": 79.862067
         }
       }
     ],
     "related": [
       {
         "id": 1,
-        "title": "Lounge Coffee Bar",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-1.jpg",
+        "type": "carwash",
+        "title": "B.M.S. Service Center",
+        "subtitle": "wash center",
+        "image": "assets/images/banner3.jpg",
         "created_date": "Sep 15, 2019",
         "rate": 4.5,
         "num_rate": 676,
         "rate_text": "Good",
         "status": "Open Now",
         "favorite": false,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
+        "address": "400 New Kandy Rd, Malabe",
+        "phone": "0718256773",
         "location": {
           "id": 1,
           "name": "Lounge Coffee Bar",
-          "lat": 37.774929,
-          "long": -122.419418
+          "lat": 6.9359739,
+          "long": 79.8322557
         }
       },
       {
         "id": 2,
-        "title": "Cozy Royal Room",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-2.jpg",
+        "type": "carwash",
+        "title": "Pro Auto Detailers",
+        "subtitle": "wash center",
+        "image": "assets/images/banner3.jpg",
         "created_date": "Sep 15, 2019",
         "rate": 4.0,
         "num_rate": 676,
         "rate_text": "Good",
         "status": "Open Now",
         "favorite": true,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
+        "address": "104 A2, Dehiwala-Mount Lavinia",
+        "phone": "0718256773",
         "location": {
           "id": 2,
           "name": "Lounge Coffee Bar",
-          "lat": 37.775434,
-          "long": -122.426516
+          "lat": 6.948255, 
+          "long": 79.877978
         }
       },
       {
         "id": 3,
-        "title": "Adorable Room",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-3.jpg",
+        "type": "carwash",
+        "title": "Hendala Service Center",
+        "subtitle": "wash center",
+        "image": "assets/images/banner3.jpg",
         "created_date": "Sep 15, 2019",
         "rate": 4.5,
         "num_rate": 676,
         "rate_text": "Good",
         "favorite": false,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
+        "address": "104 A2, Dehiwala-Mount Lavinia",
+        "phone": "0718256773",
         "location": {
           "id": 3,
           "name": "Lounge Coffee Bar",
-          "lat": 37.774228,
-          "long": -122.433966
+          "lat": 6.950534, 
+          "long": 79.862067
         }
       },
       {
         "id": 4,
-        "title": "Vallejo Guest Room",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-4.jpg",
+        "type": "carwash",
+        "title": "Mr. KleanZ Detailing Center",
+        "subtitle": "wash center",
+        "image": "assets/images/banner3.jpg",
         "created_date": "Sep 15, 2019",
         "rate": 4.5,
         "num_rate": 676,
         "rate_text": "Good",
         "status": "Close",
         "favorite": true,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
+        "address": "104 A2, Dehiwala-Mount Lavinia",
+        "phone": "0718256773",
         "location": {
           "id": 4,
           "name": "Lounge Coffee Bar",
-          "lat": 37.772057,
-          "long": -122.429248
+          "lat":6.870386, 
+          "long":79.879426
         }
       },
       {
         "id": 5,
-        "title": "Lounge Coffee Bar",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-5.jpg",
+        "type": "carwash",
+        "title": "Mint Auto Care",
+        "subtitle": "wash center",
+        "image": "assets/images/banner3.jpg",
         "created_date": "Sep 15, 2019",
         "rate": 4.5,
         "num_rate": 676,
         "rate_text": "Good",
         "favorite": false,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
+        "address": "104 A2, Dehiwala-Mount Lavinia",
+        "phone": "0718256773",
         "location": {
           "id": 5,
           "name": "Lounge Coffee Bar",
-          "lat": 37.768664,
-          "long": -122.407027
+          "lat": 6.885192,
+          "long": 79.860747
         }
       },
       {
         "id": 6,
-        "title": "Lounge Coffee Bar",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-6.jpg",
+        "type": "carwash",
+        "title": "Auto Miraj Spa (Pvt) Ltd",
+        "subtitle": "wash center",
+        "image": "assets/images/banner3.jpg",
         "created_date": "Sep 15, 2019",
         "rate": 4.0,
         "num_rate": 676,
         "rate_text": "Good",
         "favorite": false,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
+        "address": "104 A2, Dehiwala-Mount Lavinia",
+        "phone": "0718256773",
         "location": {
           "id": 6,
           "name": "Lounge Coffee Bar",
-          "lat": 37.756722,
-          "long": -122.430621
-        }
-      },
-      {
-        "id": 7,
-        "title": "Lounge Coffee Bar",
-        "subtitle": "Arts & Humanities",
-        "image": "assets/images/location-7.jpg",
-        "created_date": "Sep 15, 2019",
-        "rate": 4.5,
-        "num_rate": 676,
-        "rate_text": "Good",
-        "favorite": true,
-        "address": "667 Wiegand Gardens Suite, United States",
-        "phone": "+903 9802-7892",
-        "location": {
-          "id": 7,
-          "name": "Lounge Coffee Bar",
-          "lat": 37.753857,
-          "long": -122.455688
+          "lat": 6.920650,
+          "long": 79.856937
         }
       }
     ],
     "location": {
       "id": 1,
-      "name": "Lounge Coffee Bar",
-      "lat": 37.774929,
-      "long": -122.419418
+      "name": "Auto Miraj Spa (Pvt) Ltd",
+      "lat": 6.920650,
+      "long": 79.856937
     }
   },
   "success": true,

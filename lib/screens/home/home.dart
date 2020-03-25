@@ -198,7 +198,8 @@ class _HomeState extends State<Home> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          Translate.of(context).translate('popular_service_centers'),
+                          Translate.of(context)
+                              .translate('homepage.popular_wash_centers'),
                           style: Theme.of(context)
                               .textTheme
                               .title
@@ -206,8 +207,8 @@ class _HomeState extends State<Home> {
                         ),
                         Padding(padding: EdgeInsets.only(top: 3)),
                         Text(
-                          Translate.of(context)
-                              .translate('let_find_popular_service_center_desc'),
+                          Translate.of(context).translate(
+                              'homepage.let_find_popular_wash_center_desc'),
                           style: Theme.of(context).textTheme.body2,
                         )
                       ],
@@ -219,40 +220,43 @@ class _HomeState extends State<Home> {
                 height: 195,
                 child: _buildPopular(),
               ),
-              // Container(
-              //   padding: EdgeInsets.only(
-              //     left: 20,
-              //     right: 20,
-              //     bottom: 15,
-              //   ),
-              //   child: Row(
-              //     children: <Widget>[
-              //       Column(
-              //         crossAxisAlignment: CrossAxisAlignment.start,
-              //         children: <Widget>[
-              //           Text(
-              //             Translate.of(context).translate('recent_location'),
-              //             style: Theme.of(context)
-              //                 .textTheme
-              //                 .title
-              //                 .copyWith(fontWeight: FontWeight.w600),
-              //           ),
-              //           Padding(
-              //             padding: EdgeInsets.only(top: 3),
-              //           ),
-              //           Text(
-              //             Translate.of(context).translate('what_happen'),
-              //             style: Theme.of(context).textTheme.body2,
-              //           ),
-              //         ],
-              //       )
-              //     ],
-              //   ),
-              // ),
-              // Container(
-              //   padding: EdgeInsets.only(left: 20, right: 20),
-              //   child: _buildList(),
-              // ),
+
+              // popular service centers
+              Container(
+                padding: EdgeInsets.only(
+                  left: 20,
+                  right: 20,
+                ),
+                child: Row(
+                  children: <Widget>[
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text(
+                          Translate.of(context)
+                              .translate('homepage.popular_service_centers'),
+                          style: Theme.of(context)
+                              .textTheme
+                              .title
+                              .copyWith(fontWeight: FontWeight.w600),
+                        ),
+                        Padding(padding: EdgeInsets.only(top: 3)),
+                        Text(
+                          Translate.of(context).translate(
+                              'homepage.let_find_popular_service_center_desc'),
+                          style: Theme.of(context).textTheme.body2,
+                        )
+                      ],
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                height: 195,
+                child: _buildPopular(),
+              ),
+
+              //
             ]),
           )
         ],

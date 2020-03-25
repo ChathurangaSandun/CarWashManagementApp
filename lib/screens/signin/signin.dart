@@ -29,7 +29,7 @@ class _SignInState extends State<SignIn> {
   void initState() {
     _loginBloc = BlocProvider.of<LoginBloc>(context);
     _textIDController.text = "test";
-    _textPassController.text = "123456";
+    _textPassController.text = "1234567";
     super.initState();
   }
 
@@ -143,7 +143,7 @@ class _SignInState extends State<SignIn> {
                     });
                   },
                   onSubmitted: (text) {
-                    _login();
+                    //_login();
                   },
                   onTapIcon: () {
                     setState(() {
@@ -170,7 +170,7 @@ class _SignInState extends State<SignIn> {
                       },
                       child: AppButton(
                         onPressed: () {
-                          _login();
+                          //_login();
                         },
                         text: Translate.of(context).translate('sign_in'),
                         loading: login is LoginLoading,

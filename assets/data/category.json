@@ -4,66 +4,30 @@
     "category": [
       {
         "id": 1,
-        "name": "Shopping",
+        "name": "Car Wash",
         "count": 52,
-        "image": "assets/images/category-1.jpg",
-        "icon": "shopping_basket",
+        "image": "assets/images/banner3.jpg",
+        "icon": "directions_car",
         "color": "#ff8a65",
-        "type": "shop"
+        "type": "carwash"
       },
       {
         "id": 2,
-        "name": "Coffee & Bar",
+        "name": "Car Service",
         "count": 54,
-        "image": "assets/images/category-2.jpg",
-        "icon": "local_drink",
+        "image": "assets/images/banner4.jpg",
+        "icon": "directions_car",
         "color": "#5d6d7e",
-        "type": "drink"
+        "type": "carservice"
       },
       {
         "id": 3,
-        "name": "Events",
+        "name": "Car Parts",
         "count": 32,
-        "image": "assets/images/category-3.jpg",
-        "icon": "event_available",
-        "color": "#a569bd",
-        "type": "event"
-      },
-      {
-        "id": 4,
-        "name": "Real Estate",
-        "count": 12,
-        "image": "assets/images/category-4.jpg",
-        "icon": "all_inclusive",
-        "color": "#5dade2",
-        "type": "estate"
-      },
-      {
-        "id": 5,
-        "name": "Job Street",
-        "count": 54,
-        "image": "assets/images/location-1.jpg",
-        "icon": "card_travel",
-        "color": "#4a90a4",
-        "type": "job"
-      },
-      {
-        "id": 6,
-        "name": "Restaurant",
-        "count": 63,
-        "image": "assets/images/location-2.jpg",
-        "icon": "restaurant",
-        "color": "#58d68d",
-        "type": "restaurant"
-      },
-      {
-        "id": 7,
-        "name": "Automotive",
-        "count": 22,
-        "image": "assets/images/location-3.jpg",
+        "image": "assets/images/banner5.jpg",
         "icon": "directions_car",
-        "color": "#fdc60a",
-        "type": "automotive"
+        "color": "#a569bd",
+        "type": "carparts"
       }
     ]
   },
