@@ -4,49 +4,31 @@
     "location": [
       {
         "id": 1,
-        "name": "Alabama",
+        "name": "Colombo 1",
         "lat": 37.774929,
         "long": -122.419418
       },
       {
         "id": 2,
-        "name": "Columbia",
+        "name": "Colombo 2",
         "lat": 37.774929,
         "long": -122.419418
       },
       {
         "id": 3,
-        "name": "Arkansas",
+        "name": "Colombo 3",
         "lat": 37.774929,
         "long": -122.419418
       },
       {
         "id": 4,
-        "name": "Missouri",
+        "name": "Colombo 4",
         "lat": 37.774929,
         "long": -122.419418
       },
       {
         "id": 5,
-        "name": "Texas",
-        "lat": 37.774929,
-        "long": -122.419418
-      },
-      {
-        "id": 6,
-        "name": "Utah",
-        "lat": 37.774929,
-        "long": -122.419418
-      },
-      {
-        "id": 7,
-        "name": "Washington",
-        "lat": 37.774929,
-        "long": -122.419418
-      },
-      {
-        "id": 8,
-        "name": "West Virginia",
+        "name": "Colombo 5",
         "lat": 37.774929,
         "long": -122.419418
       }
