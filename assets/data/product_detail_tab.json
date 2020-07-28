@@ -34,7 +34,8 @@
       {"id": 2, "title": "facilities","key": "facilities"},
       {"id": 3, "title": "featured","key": "featured"},
       {"id": 4, "title": "nearly","key": "nearly"},
-      {"id": 5, "title": "related","key":"related"}
+      {"id": 5, "title": "related","key":"related"},
+      {"id": 6, "title": "bookings","key":"bookings"}
     ],
     "hour_detail": [
       {"title": "monday","time": "09:00 - 18:00"},
@@ -376,6 +377,29 @@
         }
       }
     ],
+    "bookings":{
+      "isAvailable": true,
+      "bookings": [
+        {
+          "bookingCategory": "Car Wash",
+          "name": "Car Wash",
+          "price": "Rs 200",
+          "time": "30 min"
+        },
+        {
+          "bookingCategory": "Car Wash",
+          "name": "Vaccume",
+          "price": "Rs 50",
+          "time": "10 min"
+        },
+        {
+          "bookingCategory": "Car Wash",
+          "name": "Interior Cleaning",
+          "price": "Rs 400",
+          "time": "15 min"
+        }
+      ]
+    },
     "location": {
       "id": 1,
       "name": "Auto Miraj Spa (Pvt) Ltd",

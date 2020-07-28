@@ -4,6 +4,7 @@
   "message": "Messages",
   "notification": "Notification",
   "account": "Account",
+  "appointments": "Appoinments",
   "change_language": "Change Language",
   "dynamic_theme": "System Phone",
   "always_on": "Always On",
@@ -133,6 +134,6 @@
   "homepage.popular_wash_centers": "Popular Wash Centers",
   "homepage.let_find_popular_wash_center_desc": "Let find out what most popular wash centers",
   "homepage.popular_service_centers": "Popular Service Centers",
-  "homepage.let_find_popular_service_center_desc": "Let find out what most popular service centers"
-
+  "homepage.let_find_popular_service_center_desc": "Let find out what most popular service centers",
+  "bookings": "Bookings"
 }

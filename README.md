@@ -1,13 +1,16 @@
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+1) car service kiwwa gaman lagama places 5
 
-A few resources to get you started if this is your first Flutter project:
+2) car service - search using location
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+3) car service - search using name
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4) make an appointment
+
+5) send a sms to company
+
+6) company manager accept the appointment 
+
+7) user get a sms with confirmation

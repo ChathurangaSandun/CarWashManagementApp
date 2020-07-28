@@ -115,6 +115,13 @@ class _MainNavigationState extends State<MainNavigation> {
           child: Text(Translate.of(context).translate('notification')),
         ),
       ),
+      // BottomNavigationBarItem(
+      //   icon: Icon(Icons.calendar_view_day),
+      //   title: Padding(
+      //     padding: EdgeInsets.only(top: 3),
+      //     child: Text(Translate.of(context).translate('appointments')),
+      //   ),
+      // ),
       BottomNavigationBarItem(
         icon: Icon(Icons.account_circle),
         title: Padding(
@@ -122,6 +129,7 @@ class _MainNavigationState extends State<MainNavigation> {
           child: Text(Translate.of(context).translate('account')),
         ),
       ),
+      
     ];
   }
 

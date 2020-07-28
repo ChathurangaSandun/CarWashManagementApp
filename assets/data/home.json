@@ -26,17 +26,7 @@
         "icon": "directions_car",
         "color": "#4a90a4",
         "type": "carwash"
-      },
-      {
-        "id": 2,
-        "name": "Car Parts",
-        "count": 54,
-        "image": "assets/images/location-1.jpg",
-        "icon": "directions_car",
-        "color": "#4a90a4",
-        "type": "carparts"
       }
-
     ],
     "popular": [
       {

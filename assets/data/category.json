@@ -19,15 +19,6 @@
         "icon": "directions_car",
         "color": "#5d6d7e",
         "type": "carservice"
-      },
-      {
-        "id": 3,
-        "name": "Car Parts",
-        "count": 32,
-        "image": "assets/images/banner5.jpg",
-        "icon": "directions_car",
-        "color": "#a569bd",
-        "type": "carparts"
       }
     ]
   },
