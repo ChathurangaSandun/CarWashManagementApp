@@ -5,8 +5,8 @@ class AppSort {
   ///Default Sort
   static SortModel defaultSort = SortModel.fromJson(
     {
-      "code": "lasted",
-      "name": "lasted_post",
+      "code": "nearest",
+      "name": "nearest_post",
       "icon": Icons.swap_vert,
     },
   );
@@ -14,13 +14,8 @@ class AppSort {
   ///List Sort support in Application
   static List<SortModel> listSortDefault = [
     {
-      "code": "lasted",
-      "name": "lasted_post",
-      "icon": Icons.swap_vert,
-    },
-    {
-      "code": "oldest",
-      "name": "oldest_post",
+      "code": "nearest",
+      "name": "nearest_post",
       "icon": Icons.swap_vert,
     },
     {
@@ -31,6 +26,11 @@ class AppSort {
     {
       "code": "rating",
       "name": "review_rating",
+      "icon": Icons.swap_vert,
+    },
+    {
+      "code": "favorite",
+      "name": "favorite_post",
       "icon": Icons.swap_vert,
     },
   ].map((item) => SortModel.fromJson(item)).toList();

@@ -34,9 +34,14 @@ class _ListProductState extends State<ListProduct> {
   GoogleMapController _mapController;
   int _indexLocation = 0;
   MapType _mapType = MapType.normal;
-  CameraPosition _initPosition;
+  CameraPosition _initPosition =  CameraPosition(
+          target: LatLng(
+            0,0
+          ),
+          zoom: 14.4746,
+        );
   Map<MarkerId, Marker> _markers = <MarkerId, Marker>{};
-  PageType _pageType = PageType.list;
+  PageType _pageType = PageType.map;
   ProductViewType _modeView = ProductViewType.gird;
   ProductListPageModel _productList;
   SortModel _currentSort = AppSort.defaultSort;
@@ -138,7 +143,7 @@ class _ListProductState extends State<ListProduct> {
   }
 
   ///On change page
-  void _onChangePageStyle() {
+  void _onChangePageStyle() {    
     switch (_pageType) {
       case PageType.list:
         setState(() {
@@ -602,12 +607,16 @@ class _ListProductState extends State<ListProduct> {
                   Row(
                     children: <Widget>[
                       Visibility(
-                        visible: _pageType == PageType.list,
+                        visible: _pageType != PageType.list,
                         child: Row(
                           children: <Widget>[
                             IconButton(
-                              icon: Icon(_exportIconView()),
-                              onPressed: _onChangeView,
+                              icon: Icon(
+                                _mapType == MapType.normal
+                                    ? Icons.satellite
+                                    : Icons.map,
+                              ),
+                              onPressed: _onChangeMapStyle,
                             ),
                             Container(
                               height: 24,
@@ -619,16 +628,12 @@ class _ListProductState extends State<ListProduct> {
                         ),
                       ),
                       Visibility(
-                        visible: _pageType != PageType.list,
+                        visible: _pageType == PageType.list,
                         child: Row(
                           children: <Widget>[
                             IconButton(
-                              icon: Icon(
-                                _mapType == MapType.normal
-                                    ? Icons.satellite
-                                    : Icons.map,
-                              ),
-                              onPressed: _onChangeMapStyle,
+                              icon: Icon(_exportIconView()),
+                              onPressed: _onChangeView,
                             ),
                             Container(
                               height: 24,
